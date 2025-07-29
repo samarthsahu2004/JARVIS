@@ -1,0 +1,9 @@
+speechrecognition
+webbrowser
+pyttsx3
+requests
+subprocess
+OpenAI
+gTTS
+pygame
+pocketsphinx

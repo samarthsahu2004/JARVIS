@@ -41,7 +41,7 @@ def speak(text):
     os.remove("temp.mp3") 
 
 def aiProcess(command):
-    client = OpenAI(api_key="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",
+    client = OpenAI(api_key="ENTER YOUR OPEN API KEY",
     )
 
     completion = client.chat.completions.create(
@@ -69,7 +69,7 @@ def processCommand(c):
         webbrowser.open(link)
 
     elif "news" in c.lower():
-        r = requests.get(f"{https://newsapi.org/v2/top-headlines?country=us&apiKey=742ca94c24d441b5b13cbe2b02ff07e7}")
+        r = requests.get(f"{https://newsapi.org/v2/top-headlines?country=us&apiKey="ENTER YOUR NEWS API KEY"}")
         if r.status_code == 200:
             # Parse the JSON response
             data = r.json()

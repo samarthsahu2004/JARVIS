@@ -1,5 +1,5 @@
 # JARVIS
-JARVIS is voice assistant that works on the Voice Command.
-It is Voice Assistant that can open your websites like google, youtube, linkedin and facebook. by just asking "OPEN WEBSITE NAME".
-It can also Play Music by just asking "Play MUSIC NAME".
-It can also provide you news headlines of your country and also you can ask question from it, because it is trained with OPENAI model with OPENAI API Key.
+Engineered an interactive web application that translates hand-drawn mathematical expressions into digital text and computes the solution.
+Integrated Google's Gemini Flash API to perform real-time image-to-text recognition on the user's drawings.
+Developed the front-end interface using Python and Streamlit, creating an intuitive user experience for drawing and displaying results.
+Tech Stack: Python, Streamlit, Gemini AI API.
